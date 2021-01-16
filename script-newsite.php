@@ -11,7 +11,7 @@ $vhost_file = "/usr/local/etc/httpd/sites-enabled/{$domain}.conf";
  */
 
 $vhost = "<VirtualHost *:80>
-DocumentRoot \"/Users/faustoschneider/Sites/{$diretorio}\"
+DocumentRoot \"{$diretorio}\"
 ServerName {$domain}
 </VirtualHost>";
 
